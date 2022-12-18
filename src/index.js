@@ -1,16 +1,10 @@
-export default class Day {
-  constructor() {
-  }
-
-  static DaysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
-  findDay(x) {
-    let newDate = new Date(x);
-    const dayInt = newDate.getDay();
-    if (dayInt + 1) {
-      return daysOfTheWeek[dayInt];
-    } else {
-      return "This is not a valid date.";
-    }
-  }
+export default function findDay(x) {
+  /*let date = new Date(x);
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const dayObject = date.getDay();
+  if (date.getDay() + 1) {
+    return days[date.getDay()];
+  } else {
+    return "This is not a valid date.";
+  }*/
 }
